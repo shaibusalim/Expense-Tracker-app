@@ -1,0 +1,75 @@
+.trans-container .trans-button{
+    display: flex;
+    justify-content: center;
+}
+.trans-container .trans-button button{
+
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-style: hidden;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.trans-container .trans-input .display-input-con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.trans-container .trans-input .display-input-con input{
+    width: 270px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+.trans-container .trans-input .display-input-con select{
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    color: rgba(0,0,0,0.5);
+    border-style: hidden;
+    margin-bottom: 10px;
+}
+.trans-container .trans-input .display-input-con button{
+    width: 270px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-container .data-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.data-container .data-content p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data-container .bg-red{
+    background-color: red;
+    color: white;
+}
+.data-container  .bg-green{
+    background-color: green;
+    color: white;
+}
