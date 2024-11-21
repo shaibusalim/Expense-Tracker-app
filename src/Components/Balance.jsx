@@ -12,12 +12,12 @@ function Balance() {
 
     const onIncome = (amount) => {
         setIncome(income+amount );
-        setBalance(balance + amount);
+        setBalance(balance+amount);
     }
 
     const onExpense = (amount) => {
-        setExpense(expense + amount);
-        setBalance(balance - amount);
+        setExpense(expense+amount);
+        setBalance(balance-amount);
     }
   return (
     <div className='balance-container'>

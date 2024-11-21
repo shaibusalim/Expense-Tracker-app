@@ -67,8 +67,8 @@ function Transaction({onIncome, onExpense}) {
                                 value={transactionType}
                                 onChange={(e) => setTransactionType(e.target.value)}
                             >
-                                <option>Income</option>
-                                <option>Expense</option>
+                                <option value='income'>Income</option>
+                                <option value='expense'>Expense</option>
                             </select>
                             <button onClick={handleSubmit}>Add</button>
                         </div>
